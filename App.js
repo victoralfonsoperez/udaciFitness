@@ -8,7 +8,7 @@ class App extends Component {
       <View>
         <AddEntry />
       </View>
-    );
+    )
   }
 }
 
