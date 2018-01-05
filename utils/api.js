@@ -4,7 +4,6 @@ import { CALENDAR_STORAGE_KEY } from './_calendar'
 export const submitEntry = ({ entry, key }) => {
   AsyncStorage.mergeItem(CALENDAR_STORAGE_KEY, JSON.stringify({
     [key]: entry,
-
   }))
 }
 
